@@ -50,6 +50,8 @@ createApp({
                 this.activeImage--;
             }
         },
-       
+        setImg(index){
+            this.activeImage = index;
+        }
     }
 }).mount('#app');
